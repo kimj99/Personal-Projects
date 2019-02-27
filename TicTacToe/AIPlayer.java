@@ -9,7 +9,7 @@ public class HPlayer implements Player {
     }
 
     public void move(){
-        System.out.println("Not implemented");
+        System.out.println("Not implemented yet");
     }
 
 }
