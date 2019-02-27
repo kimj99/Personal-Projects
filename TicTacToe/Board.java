@@ -98,17 +98,13 @@ public class Board {
         return true;
     }
 
-    public String[] getBoardData() {
-        return board;
-    }
-
     public void setBoardData(String[] board) {
         this.board = board;
     }
 
     public Board copy() {
         Board result = new Board();
-        result.setBoardData(this.getBoardData());
+        result.setBoardData(this.board);
         return result;
     }
 
